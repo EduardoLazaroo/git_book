@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GitHub Academy — Guia Prático de Git e GitHub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Cabeçalho Principal -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo">
+        <span class="logo-icon">🐙</span>
+        <span class="logo-text">GitHub <strong>Academy</strong></span>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#comandos">Comandos</a></li>
+          <li><a href="#perfil">Meu Perfil</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Seção Hero / Apresentação -->
+  <header class="hero">
+    <div class="container hero-content">
+      <span class="badge">Curso Técnico • Desenvolvimento de Sistemas</span>
+      <h1>Domine o <span>Git</span> e o <span>GitHub</span> na Prática</h1>
+      <p>Construa, versione e publique este site passo a passo enquanto aprende a controlar versões como um desenvolvedor profissional.</p>
+      <div class="hero-actions">
+        <a href="#comandos" class="btn btn-primary">Ver Comandos</a>
+        <a href="#sobre" class="btn btn-secondary">Entender Conceitos</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main class="container">
+    <!-- Seção Sobre -->
+    <section id="sobre" class="section">
+      <h2 class="section-title">O que estamos aprendendo?</h2>
+      <div class="grid-2">
+        <article class="card">
+          <div class="card-icon">💻</div>
+          <h3>Git: A Máquina do Tempo</h3>
+          <p>O Git é um sistema de controle de versão distribuído que roda localmente no seu computador. Ele salva fotografias (commits) de cada evolução do seu projeto, permitindo voltar no tempo caso algo dê errado.</p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon">☁️</div>
+          <h3>GitHub: A Nuvem dos Devs</h3>
+          <p>O GitHub é uma plataforma online que hospeda repositórios Git na nuvem. Ele permite compartilhar código, colaborar em equipe e exibir seus projetos para o mundo.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção Comandos Essenciais -->
+    <section id="comandos" class="section">
+      <h2 class="section-title">Comandos Essenciais do Dia a Dia</h2>
+      <p class="section-desc">Estes são os comandos que você utilizará com mais frequência em sua carreira:</p>
+
+      <div class="grid-3">
+        <article class="command-card">
+          <code>git status</code>
+          <h4>Ver o Estado</h4>
+          <p>Mostra quais arquivos foram criados, alterados ou estão prontos para commit.</p>
+        </article>
+
+        <article class="command-card">
+          <code>git add .</code>
+          <h4>Preparar Arquivos</h4>
+          <p>Coloca as alterações na Staging Area (área de preparação antes da foto).</p>
+        </article>
+
+        <article class="command-card">
+          <code>git commit -m "..."</code>
+          <h4>Registrar Versão</h4>
+          <p>Salva permanentemente a foto atual das alterações com uma mensagem descritiva.</p>
+        </article>
+
+        <article class="command-card">
+          <code>git push</code>
+          <h4>Enviar para a Nuvem</h4>
+          <p>Envia os commits locais do seu computador para o repositório no GitHub.</p>
+        </article>
+
+        <article class="command-card">
+          <code>git pull</code>
+          <h4>Puxar Atualizações</h4>
+          <p>Baixa alterações do repositório remoto para o seu computador local.</p>
+        </article>
+
+        <article class="command-card">
+          <code>git branch</code>
+          <h4>Gerenciar Ramificações</h4>
+          <p>Cria e visualiza ramificações seguras para desenvolver novas funcionalidades.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Seção Meu Perfil de Desenvolvedor -->
+    <section id="perfil" class="section">
+      <h2 class="section-title">Perfil do Desenvolvedor</h2>
+      <div class="profile-card">
+        <div class="avatar-placeholder">🧑‍💻</div>
+        <div class="profile-info">
+          <h3>Seu Nome Aqui</h3>
+          <p class="role">Estudante de Desenvolvimento de Sistemas</p>
+          <p class="bio">Apaixonado por tecnologia, aprendendo controle de versão com Git e GitHub para construir projetos em equipe!</p>
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">Git</span>
+            <span class="tag">GitHub</span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>Construído durante a aula de Git & GitHub — GitHub Academy</p>
+      <p class="copyright">Versão 1.0 • Desenvolvido para fins educacionais</p>
+    </div>
+  </footer>
+</body>
+</html>
